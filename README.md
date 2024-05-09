@@ -13,7 +13,7 @@ Assurez-vous d'avoir les logiciels suivants installés sur votre machine avant d
 
 1. Clonez ce dépôt GitHub sur votre machine locale en utilisant :
    ```bash
-   git clone https://github.com/votre-username/votre-repo.git
+   git clone https://github.com/cayman7593/docker_vagrant.git
 
 2.  Naviguez dans le dossier du projet cloné :
 cd votre-repo
