@@ -1,6 +1,6 @@
 Vagrant.configure("2") do |config|
   # Choix de la box (systeme d'exploitation)
-  config.vm.box = "ubuntu/mantic64"
+  config.vm.box = "ubuntu/jammy64"
 
   # Configuration de la mémoire
   config.vm.provider "virtualbox" do |v|
