@@ -19,7 +19,7 @@ Assurez-vous d'avoir les logiciels suivants installés sur votre machine avant d
 cd votre-repo
 3. Lancez la machine virtuelle avec Vagrant :
 vagrant up
-Une fois la commande exécutée, Vagrant va télécharger l'image de base (ubuntu/mantic64), configurer la VM avec 2048 MB de RAM, et installer Docker.
+Une fois la commande exécutée, Vagrant va télécharger l'image de base (ubuntu/jammy64), configurer la VM avec 2048 MB de RAM, et installer Docker.
 
 Utilisation
 Après le provisionnement, vous pouvez accéder à votre VM en utilisant :
