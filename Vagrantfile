@@ -10,7 +10,10 @@ Vagrant.configure("2") do |config|
   # Configuration du réseau pour permettre l'appel sous le nom 'docker'
   config.vm.hostname = "docker"
 
-  # Provisionnement avec un script shell pour installer Docker
+  config.vm.network "forwarded_port", guest:80, host:80
+  config.vm.network "private_network", ip:"192.168.0.2"
+  
+# Provisionnement avec un script shell pour installer Docker
   config.vm.provision "shell", inline: <<-SHELL
     # Commande installation docker shell
 
